@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(243.3deg, #004AFF, #001751);
+
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: black;
+    /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+}
+
+
+header{
+    height: 60px;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    border-bottom: 1px solid #FF7A00;
+}
+
+.navbar div{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar div a{
+    font-family: 'Sarala';
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar div a:hover{
+    border-bottom: 2px solid #FF7A00;
+    transition: all 1s;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main .sidebar{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.sidebar img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.linha-sidebar{
+    position: absolute;
+    width: 1px;
+    height: 400px;
+    background: #FF7A00;
+    left: 9%;
+}
+.main .sidebar img{
+    width: 40px;
+}
+
+
+
+.textos{
+    padding-bottom: 9px;
+    padding-right: 200px;
+}
+.textos h1{
+    font-family: 'Righteous';
+    color: #FF7A00;
+    font-size: 80px;
+}
+.textos h3{
+    font-family: 'Righteous';
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.btn-1{
+    padding-top: 60px;
+}
+
+
+#btn1{
+    background: transparent;
+    font-family: 'Sarala';
+    color: white;
+    font-size: 23px;
+    border: 2px solid #FF7A00;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#btn1:hover{
+    background-color: #FF7A00;
+    transition: all 1s;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(243.3deg, #004AFF, #001751);
+    border-top: 1px solid #FF7A00;
+    position: absolute;
+}
+footer section{
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+
+footer .txt1{
+    font-family: 'Sarala';
+    font-size: 13px;
+    color: white;
+}
+footer .txt2{
+    font-family: 'Sarala';
+    font-size: 13px;
+    color: white;
+}
+
