@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.meu_setup h1{
+    font-family: 'Righteous';
+    color: white;
+    font-size: 50px;
+    margin-bottom: 8%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.setupimg_column1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    margin-bottom: 4%;
+    
+}
+.setupimg_column1 img{
+    width: 250px;
+}
+.meu_setup p{
+    font-family: 'Sarala';
+    color: white;
+    font-size: 20px;
+}
+.teclado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teclado img{
+    margin-top: 5%;
+}
+.teclado img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.mouse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mouse img{
+    margin-top: 5%;
+}
+.mouse img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.fone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fone img{
+    margin-top: 5%;
+}
+.fone img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.mouse-pad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mouse-pad img{
+    margin-top: 5%;
+}
+.mouse-pad img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.cadeira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadeira img{
+    margin-top: 5%;
+}
+.cadeira img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.gabinete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gabinete img{
+    margin-top: 5%;
+}
+.gabinete img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.monitor{
+    margin-top: 5%;
+    border-bottom: 1px solid #FF7A00;
+    margin-bottom: 5%;
+}
+.monitor p{
+    text-align: center;
+    font-family: 'Sarala';
+    color: white;
+    font-size: 25px;
+}
+.monitor img{
+    margin-top: 3%;
+    width: 800px;
+    margin-bottom: 8%;
+}
+.monitor img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.especificacoes{
+    margin-bottom: 8%;
+}
+
+.especificacoes h1{
+    font-family: 'Righteous';
+    color: white;
+    font-size: 50px;
+    margin-bottom: 8%;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: normal;
+    font-style: normal;
+}
+.especificacoes-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt-esp{
+    margin-left: 15%;
+}
+
+.txt-esp li{
+    font-family: 'Sarala';
+    color: white;
+    font-size: 18px;
+}
+.img-esp{
+    margin-right: 15%;
+}
+.img-esp img{
+    width: 450px;
+}

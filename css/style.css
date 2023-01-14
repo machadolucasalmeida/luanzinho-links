@@ -7,8 +7,7 @@
 }
 
 body{
-    background: linear-gradient(243.3deg, #004AFF, #001751);
-
+    background-image: linear-gradient(to left, #004AFF, #001751);
 }
 
 /* scrollbar */
@@ -27,9 +26,8 @@ body::-webkit-scrollbar-thumb {
     /* roundness of the scroll thumb */
 }
 
-
 header{
-    height: 60px;
+    height: 65px;
     display: flex;
     align-items : center;
     justify-content: center;
@@ -49,8 +47,9 @@ header{
 }
 
 .navbar div a:hover{
-    border-bottom: 2px solid #FF7A00;
-    transition: all 1s;
+    border-bottom: 2px solid #ffa735;
+    color: #ffa735;
+    transition: all 0.2s;
 }
 
 .main{
@@ -82,8 +81,6 @@ header{
 .main .sidebar img{
     width: 40px;
 }
-
-
 
 .textos{
     padding-bottom: 9px;
@@ -127,20 +124,18 @@ header{
 footer{
     width: 100%;
     height: 60px;
-    background: linear-gradient(243.3deg, #004AFF, #001751);
     border-top: 1px solid #FF7A00;
-    position: absolute;
+    bottom: 0;
+    top: 0;
+    
 }
 footer section{
     display: flex;
-    align-items: flex-end; 
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-right: 3%;
     margin-left: 3%;
 }
-
-
 
 footer .txt1{
     font-family: 'Sarala';
