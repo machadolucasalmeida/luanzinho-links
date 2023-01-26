@@ -1,0 +1,94 @@
+.titulo{
+    padding-top: 36px;
+    text-align: center;
+    padding-bottom: 62px;
+}
+
+.titulo h1{
+    font-family: 'Righteous';
+    color: #FF7A00;
+    font-size: 52px;
+    padding-bottom: 20px;
+}
+
+.titulo h3{
+    font-family: 'Righteous';
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.formulario{
+    text-align: center;
+}
+.formulario h2{
+    font-family: 'Righteous';
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 22px;
+}
+::placeholder{
+    font-family: 'Righteous';
+    color: rgba(255, 255, 255, 0.6);
+}
+input{
+    padding-left: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 535px;
+    outline: none;
+}
+button{
+    margin-top: 22px;
+    margin-bottom: 50px;
+    background: none;
+    width: 120px;
+    height: 30px;
+    color:white;
+    border-radius: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #FF7A00;
+    text-shadow: #000 3px 1px 2px;
+    transition: all .8s;
+}
+.linha{
+    border: 1px solid #FF7A00;
+    width: 80%;
+    margin-left: 100px;
+}
+.img-parceiros{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.img-parceiros img{
+    border-radius: 30px;
+    width: 300px;
+    margin-bottom: 80px;
+}
+textarea{
+    color: white;
+}
+
